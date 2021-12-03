@@ -1,10 +1,5 @@
 import { motion } from 'framer-motion';
-import {
-	GetServerSidePropsContext,
-	GetStaticProps,
-	GetStaticPropsContext,
-	NextPage,
-} from 'next';
+import { NextPage } from 'next';
 import React from 'react';
 import { fadeInUp, routerAnimation, stagger } from '../animations';
 import { ServiceCard } from '../components/ServiceCard';

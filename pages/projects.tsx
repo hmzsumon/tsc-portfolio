@@ -4,7 +4,7 @@ import { fadeInUp, routerAnimation, stagger } from '../animations';
 import ProjectCard from '../components/ProjectCard';
 import ProjectsNavbar from '../components/ProjectNavbar';
 import { projects as projectsData } from '../data';
-import { Category } from '../type';
+import { Category } from '../types';
 
 const Projects = () => {
 	const [projects, setProjects] = useState(projectsData);

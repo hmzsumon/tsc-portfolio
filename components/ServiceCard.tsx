@@ -1,8 +1,8 @@
 /* eslint-disable react/no-danger-with-children */
 import React, { FunctionComponent } from 'react';
-import { IService } from '../type';
+import { Service } from '../types';
 
-export const ServiceCard: FunctionComponent<{ service: IService }> = ({
+export const ServiceCard: FunctionComponent<{ service: Service }> = ({
 	service: { Icon, about, title },
 }) => {
 	const createMarkup = () => ({ __html: about });

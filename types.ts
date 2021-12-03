@@ -1,12 +1,12 @@
 import { IconType } from 'react-icons';
 
-export interface IService {
+export interface Service {
 	title: string;
 	about: string;
 	Icon: IconType;
 }
 
-export interface ISkill {
+export interface Skill {
 	name: string;
 	level: string;
 	Icon: IconType;
